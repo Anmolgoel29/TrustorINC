@@ -1,0 +1,146 @@
+.navbar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 1000;
+  padding: 1.5rem 5%;
+  transition: all 0.3s ease;
+  background: transparent;
+}
+
+.navbar.scrolled {
+  background: rgba(10, 10, 10, 0.95);
+  backdrop-filter: blur(10px);
+  padding: 1rem 5%;
+  box-shadow: 0 4px 30px rgba(255, 107, 53, 0.1);
+}
+
+.navbar-container {
+  max-width: 1400px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navbar-logo {
+  font-family: 'Orbitron', sans-serif;
+  font-size: 1.8rem;
+  font-weight: 900;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  transition: transform 0.3s ease;
+}
+
+.navbar-logo:hover {
+  transform: scale(1.05);
+}
+
+.logo-text {
+  color: var(--text-primary);
+  letter-spacing: 2px;
+}
+
+.logo-accent {
+  color: var(--orange-primary);
+  letter-spacing: 2px;
+}
+
+.navbar-menu {
+  display: flex;
+  gap: 3rem;
+  align-items: center;
+}
+
+.nav-link {
+  color: var(--text-primary);
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 1rem;
+  position: relative;
+  cursor: pointer;
+  transition: color 0.3s ease;
+  letter-spacing: 0.5px;
+}
+
+.nav-link::after {
+  content: '';
+  position: absolute;
+  bottom: -5px;
+  left: 0;
+  width: 0;
+  height: 2px;
+  background: var(--orange-primary);
+  transition: width 0.3s ease;
+}
+
+.nav-link:hover {
+  color: var(--orange-primary);
+}
+
+.nav-link:hover::after {
+  width: 100%;
+}
+
+.contact-btn {
+  background: linear-gradient(135deg, var(--orange-primary), var(--orange-light));
+  padding: 0.7rem 1.5rem;
+  border-radius: 25px;
+  font-weight: 600;
+  transition: all 0.3s ease;
+  box-shadow: 0 4px 15px rgba(255, 107, 53, 0.3);
+}
+
+.contact-btn::after {
+  display: none;
+}
+
+.contact-btn:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 6px 20px rgba(255, 107, 53, 0.4);
+  color: var(--text-primary);
+}
+
+.navbar-toggle {
+  display: none;
+  font-size: 1.5rem;
+  color: var(--text-primary);
+  cursor: pointer;
+  z-index: 1001;
+}
+
+@media (max-width: 768px) {
+  .navbar-toggle {
+    display: block;
+  }
+
+  .navbar-menu {
+    position: fixed;
+    top: 0;
+    right: -100%;
+    width: 70%;
+    height: 100vh;
+    background: rgba(10, 10, 10, 0.98);
+    backdrop-filter: blur(10px);
+    flex-direction: column;
+    justify-content: center;
+    gap: 2rem;
+    transition: right 0.3s ease;
+    border-left: 1px solid rgba(255, 107, 53, 0.2);
+  }
+
+  .navbar-menu.active {
+    right: 0;
+  }
+
+  .nav-link {
+    font-size: 1.2rem;
+  }
+
+  .navbar-logo {
+    font-size: 1.5rem;
+  }
+}
