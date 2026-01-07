@@ -171,6 +171,7 @@
   opacity: 0;
   transform: translateX(50px);
   transition: all 1s ease 0.3s;
+  margin-top: -30vh;
 }
 
 .hero-visual.visible {
@@ -226,13 +227,18 @@
   overflow: hidden;
   box-shadow: 0 20px 60px rgba(255, 107, 53, 0.3);
   border: 3px solid rgba(255, 107, 53, 0.3);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  aspect-ratio: 1;
 }
 
 .hero-image {
   width: 100%;
-  height: auto;
+  height: 100%;
   display: block;
-  object-fit: cover;
+  object-fit: contain;
+  padding: 20px;
 }
 
 .scroll-indicator {
