@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from 'react'
 import './Hero.css'
 import { FaArrowDown, FaShippingFast, FaCheckCircle, FaGlobeAmericas } from 'react-icons/fa'
+import heroImage from '../assets/image.webp'
 
 const Hero = () => {
   const [isVisible, setIsVisible] = useState(false)
@@ -71,7 +72,7 @@ const Hero = () => {
           <div className="visual-circle circle-2"></div>
           <div className="visual-circle circle-3"></div>
           <div className="hero-image-container">
-            <img src="WhatsApp Image 2026-01-06 at 18.34.17.jpeg" alt="Trustor INC" className="hero-image" />
+            <img src={heroImage} alt="Trustor INC" className="hero-image" />
           </div>
         </div>
       </div>
