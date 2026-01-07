@@ -71,7 +71,7 @@ const Hero = () => {
           <div className="visual-circle circle-2"></div>
           <div className="visual-circle circle-3"></div>
           <div className="hero-image-container">
-            <img src="/WhatsApp Image 2026-01-06 at 18.34.17.jpeg" alt="Trustor INC" className="hero-image" />
+            <img src="WhatsApp Image 2026-01-06 at 18.34.17.jpeg" alt="Trustor INC" className="hero-image" />
           </div>
         </div>
       </div>
