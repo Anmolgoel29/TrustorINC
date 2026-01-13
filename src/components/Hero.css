@@ -294,6 +294,10 @@
     padding: 100px 5% 60px;
   }
 
+  .hero-visual {
+    display: none;
+  }
+
   .hero-stats {
     grid-template-columns: 1fr;
     gap: 1rem;
