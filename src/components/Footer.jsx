@@ -25,7 +25,7 @@ const Footer = () => {
               Your trusted partner in wholesale excellence. Quality products, reliable service, lasting partnerships.
             </p>
             <div className="footer-social">
-              <a href="https://wa.me/919980876968" target="_blank" rel="noopener noreferrer" className="social-link">
+              <a href="https://wa.me/7982843604" target="_blank" rel="noopener noreferrer" className="social-link">
                 <FaWhatsapp />
               </a>
               <a href="#" className="social-link">
@@ -65,11 +65,11 @@ const Footer = () => {
             <h4>Contact Us</h4>
             <div className="contact-item">
               <FaPhone />
-              <a href="tel:+919980876968">+91 7982843604</a>
+              <a href="tel:7982843604">79828 43604</a>
             </div>
             <div className="contact-item">
               <FaWhatsapp />
-              <a href="https://wa.me/919980876968" target="_blank" rel="noopener noreferrer">WhatsApp</a>
+              <a href="https://wa.me/7982843604" target="_blank" rel="noopener noreferrer">WhatsApp</a>
             </div>
             <div className="contact-item">
               <FaEnvelope />

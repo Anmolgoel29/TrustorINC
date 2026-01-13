@@ -22,7 +22,7 @@ const Contact = () => {
     e.preventDefault()
     // In a real application, you would send this data to a backend
     const message = `Hello! I'm ${formData.name}.\nEmail: ${formData.email}\nPhone: ${formData.phone}\nInterested in: ${formData.product}\nMessage: ${formData.message}`
-    const whatsappUrl = `https://wa.me/919980876968?text=${encodeURIComponent(message)}`
+    const whatsappUrl = `https://wa.me/7982843604?text=${encodeURIComponent(message)}`
     window.open(whatsappUrl, '_blank')
   }
 
@@ -31,7 +31,7 @@ const Contact = () => {
       icon: <FaPhone />,
       title: 'Phone',
       info: '+91 7982843604',
-      link: 'tel:+7982843604'
+      link: 'tel:7982843604'
     },
     {
       icon: <FaWhatsapp />,
