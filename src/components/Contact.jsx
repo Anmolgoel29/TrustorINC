@@ -31,13 +31,13 @@ const Contact = () => {
       icon: <FaPhone />,
       title: 'Phone',
       info: '+91 7982843604',
-      link: 'tel:+919980876968'
+      link: 'tel:+7982843604'
     },
     {
       icon: <FaWhatsapp />,
       title: 'WhatsApp',
       info: '+91 7982843604',
-      link: 'https://wa.me/919980876968'
+      link: 'https://wa.me/7982843604'
     },
     {
       icon: <FaEnvelope />,
@@ -48,13 +48,13 @@ const Contact = () => {
     {
       icon: <FaMapMarkerAlt />,
       title: 'Location',
-      info: 'Serving Pan India',
+      info: 'Serving Pan Delhi',
       link: null
     },
     {
       icon: <FaClock />,
       title: 'Business Hours',
-      info: 'Mon-Sat: 9AM - 7PM',
+      info: 'Mon-Sun: 9AM - 7PM',
       link: null
     }
   ]
