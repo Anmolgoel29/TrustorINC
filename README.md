@@ -65,9 +65,9 @@ This is a static website that can be deployed to:
 
 ## 📞 Contact Information
 
-- Phone: +91 99808 76968
-- WhatsApp: +91 99808 76968
-- Email: trustorinc@example.com
+- Phone: +91 7982843604
+- WhatsApp: +91 7982843604
+- Email: trustor.inc@gmail.com 
 
 ## 📄 License
 

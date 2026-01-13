@@ -30,20 +30,20 @@ const Contact = () => {
     {
       icon: <FaPhone />,
       title: 'Phone',
-      info: '+91 99808 76968',
+      info: '+91 7982843604',
       link: 'tel:+919980876968'
     },
     {
       icon: <FaWhatsapp />,
       title: 'WhatsApp',
-      info: '+91 99808 76968',
+      info: '+91 7982843604',
       link: 'https://wa.me/919980876968'
     },
     {
       icon: <FaEnvelope />,
       title: 'Email',
-      info: 'trustorinc@example.com',
-      link: 'mailto:trustorinc@example.com'
+      info: 'trustor.inc@gmail.com ',
+      link: 'mailto:trustor.inc@gmail.com '
     },
     {
       icon: <FaMapMarkerAlt />,

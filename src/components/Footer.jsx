@@ -65,7 +65,7 @@ const Footer = () => {
             <h4>Contact Us</h4>
             <div className="contact-item">
               <FaPhone />
-              <a href="tel:+919980876968">+91 99808 76968</a>
+              <a href="tel:+919980876968">+91 7982843604</a>
             </div>
             <div className="contact-item">
               <FaWhatsapp />
@@ -73,7 +73,7 @@ const Footer = () => {
             </div>
             <div className="contact-item">
               <FaEnvelope />
-              <a href="mailto:trustorinc@example.com">Get Quote</a>
+              <a href="mailto:trustor.inc@gmail.com ">Get Quote</a>
             </div>
           </div>
         </div>
